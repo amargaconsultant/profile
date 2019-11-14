@@ -1,6 +1,6 @@
 {
-  "homepage": "https://amargaconsultant.github.io/profile/",
-  "name": "profile",
+  "homepage": "https://amargaconsultant.github.io/profilecompany/",
+  "name": "profilecompany",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
