@@ -1,0 +1,18 @@
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+  }
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.bg-ku{
+  background-color: #FFDE59;
+}
+
+.judul:hover{
+  background-color: rgb(177, 177, 177)
+}
+
