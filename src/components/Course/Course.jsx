@@ -63,11 +63,11 @@ export class Course extends Component {
                       <div id="demo" class="collapse">
                       <ul className='py-0' style={{listStyleType:'none'}}>
                         <li>
-                        <a className='nav-link p-0 py-2' target="blank" href='file/COURSE_SCHEDULE_SNS_2020.pdf'>Schedule</a>
+                        <a className='nav-link p-0 py-2' target="blank" href='file/COURSE_SCHEDULE_SNS.pdf'>Schedule</a>
 
                         </li>
                         <li>
-                        <a className='nav-link p-0 py-2' target="blank" href='file/COURSE_PRICE SNS_2020.pdf'>Price</a>
+                        <a className='nav-link p-0 py-2' target="blank" href='file/COURSE_PRICE_SNS.pdf'>Price</a>
 
                         </li>
                       </ul>
@@ -80,7 +80,7 @@ export class Course extends Component {
 
                       </li>
                       <li>
-                      <a className='nav-link p-0 py-2' target="blank" href='file/CERTIFICATE_HOLDER_OF_NDT LEVEL II _1NOP2019.pdf'>Certificate Holder</a>
+                      <a className='nav-link p-0 py-2' target="blank" href='file/CERTIFICATE_HOLDER.pdf'>Certificate Holder</a>
 
                       </li>
                     </ul>

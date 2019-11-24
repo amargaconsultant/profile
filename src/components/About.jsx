@@ -38,7 +38,7 @@ export class About extends Component {
                       qualified and certified personnel of Levels I, II and III
                       in the Nondestructive Ultrasonic Testing techniques: The
                       training and certification process is performed according
-                      to the American Society of Nondestructive Teesting
+                      to the American Society of Nondestructive Testing
                       Recomended Practice SNT-TC-1A and or NAS 410/EN 417q. The
                       performance of service in industry will be responsible by
                       ASNT/NAS410/EN4179 NDT level III.
