@@ -6,6 +6,7 @@ import Menu1 from './Menu1'
 import Menu4 from './Menu4'
 import Menu5 from './Menu5'
 import Menu6 from './Menu6'
+import Certificatenew from './Certificatenew'
 
 export class Course extends Component {
    
@@ -33,6 +34,8 @@ export class Course extends Component {
           return <Menu5/>
         case 6:
           return <Menu6/>
+        case 7:
+          return <Certificatenew/>
         default:
           return <Menu1/>
       }
@@ -60,7 +63,7 @@ export class Course extends Component {
                       </li>
                       <li>
                         <a href="#demo" className="nav-link p-0 py-2" data-toggle="collapse">Course Schedule & Price</a>
-                      <div id="demo" class="collapse">
+                      <div id="demo" className="collapse">
                       <ul className='py-0' style={{listStyleType:'none'}}>
                         <li>
                         <a className='nav-link p-0 py-2' target="blank" href='file/COURSE_SCHEDULE_SNS.pdf'>Schedule</a>
@@ -80,7 +83,8 @@ export class Course extends Component {
 
                       </li>
                       <li>
-                      <a className='nav-link p-0 py-2' target="blank" href='file/CERTIFICATE_HOLDER.pdf'>Certificate Holder</a>
+                      <Link onClick={()=>{this.clickMenu(7)}} className='nav-link p-0 py-2' to='#'>Certificate Holder</Link>  
+                      {/* <a className='nav-link p-0 py-2' target="blank" href='file/CERTIFICATE_HOLDER.pdf'>Certificate Holder</a> */}
 
                       </li>
                     </ul>
