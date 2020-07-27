@@ -6,7 +6,8 @@ import Menu1 from './Menu1'
 import Menu4 from './Menu4'
 import Menu5 from './Menu5'
 import Menu6 from './Menu6'
-import Certificatenew from './Certificatenew'
+import AerospaceCertificate from './AerospaceCertificate'
+import IndustrialCertificate from './IndustrialCertificate'
 
 export class Course extends Component {
    
@@ -35,7 +36,9 @@ export class Course extends Component {
         case 6:
           return <Menu6/>
         case 7:
-          return <Certificatenew/>
+          return <AerospaceCertificate/>
+        case 8:
+          return <IndustrialCertificate/>
         default:
           return <Menu1/>
       }
@@ -83,10 +86,26 @@ export class Course extends Component {
 
                       </li>
                       <li>
-                      <Link onClick={()=>{this.clickMenu(7)}} className='nav-link p-0 py-2' to='#'>Certificate Holder</Link>  
-                      {/* <a className='nav-link p-0 py-2' target="blank" href='file/CERTIFICATE_HOLDER.pdf'>Certificate Holder</a> */}
+                        <a href="#demo2" className="nav-link p-0 py-2" data-toggle="collapse">Certificate Holder</a>
+                      <div id="demo2" className="collapse">
+                      <ul className='py-0' style={{listStyleType:'none'}}>
+                        <li>
+                        <Link onClick={()=>{this.clickMenu(7)}} className='nav-link p-0 py-2' to='#'>Aerospace</Link>  
 
+                        </li>
+                        <li>
+                        <Link onClick={()=>{this.clickMenu(8)}} className='nav-link p-0 py-2' to='#'>Industrial</Link>  
+
+                        </li>
+                      </ul>
+                      </div>
+                      
+                      
                       </li>
+                      {/* <li>
+                      <a className='nav-link p-0 py-2' target="blank" href='file/CERTIFICATE_HOLDER.pdf'>Certificate Holder</a>
+
+                      </li> */}
                     </ul>
                     
                         {/* <Link onClick={()=>{this.clickMenu(2)}} className='nav-link p-0 py-2' to='#'>Training and Certification Methodology</Link>
